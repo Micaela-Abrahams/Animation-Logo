@@ -1,0 +1,26 @@
+/*The element to apply animation to*/
+.Box1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(111, 255, 0);
+    font-size: 50px;
+    text-align: center;
+    line-height: 5.5;
+    animation-name: MySquare;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+    
+}
+
+/*The Animation Code*/
+@keyframes MySquare{
+    0% {background: rgb(111, 255, 0);
+        transform: translateY(300px)}
+    20% {background: rgb(59, 175, 229);}
+    40% {background: rgb(111, 11, 91);
+        border-radius: 50%;
+        transform: rotate(90deg);}
+    60% {background: rgb(240, 56, 56);}
+    80% {background: rgb(229, 125, 13);}
+    100% {background: yellow;}
+}
