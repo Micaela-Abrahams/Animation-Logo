@@ -1,3 +1,7 @@
+body{
+    background: #FFB7BC;
+}
+
 /*The element to apply animation to*/
 #Box1{
     width: 300px;
@@ -22,9 +26,9 @@
 /*The Animation Code*/
 @keyframes MyLinkedInLogo{
     20% {background: rgb(59, 175, 229);
-        transform: translateY(200px)}
-    40% {background: rgb(111, 11, 91);
-        border-radius: 50%;
+        transform: translateY(200px);
+        border-radius: 50%;}
+    40% {background: rgb(111, 11, 91); 
         transform: rotate(360deg);}
     60% {background: rgb(240, 56, 56);}
     80% {background: rgb(229, 125, 13);}
